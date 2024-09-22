@@ -27,7 +27,7 @@ docker build . -t net_positive/backend --no-cache
 2. Run:
 
 ```bash
-docker run -d -p 5173:80 net_positive/backend --no-cache
+docker run -d -p 16108:80 netpositive/backend --no-cache
 ```
 
 ## 3. Check the http://localhost:16108 in your browser
